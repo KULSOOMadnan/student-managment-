@@ -1,5 +1,5 @@
 <i>
-<h1>Author : Kulsoom Adnan</h1>
+<h1>Author : Kulsoom Adnan✨</h1>
 <h1> 👨‍🎓 Student Management System 📚</h1>
 <h2>Description⤵️</h2>
 <p>The Student Management System is a Node.js-based command-line application designed to streamline administrative tasks related to student information and course management.
@@ -10,8 +10,8 @@
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Usage](#npmusage)
+- [Technology used](#Technologyused💻)
 - [License](#license)
 
 <h1>Features ✨</h1>
