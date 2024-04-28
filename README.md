@@ -1,6 +1,5 @@
 <i>
 <h1> 👨‍🎓 Student Management System 📚</h1>
-<h1>Author : Kulsoom Adnan✨</h1>
 <h2>Description⤵️</h2>
 <p>The Student Management System is a Node.js-based command-line application designed to streamline administrative tasks related to student information and course management.
  the system aims to enhance user experience while efficiently managing student data and course enrollments. It serves as a practical tool for educational institutions or organizations to manage their student records effectively.
@@ -36,6 +35,6 @@ if you would like to execute it via command line interface, use the npx command 
 <h2>license</h2>
 <p>This project is licensed under the <b>ISC</b> License </p>
 <h2>I'm grateful that you checked my repository😍 </h2>
-
+<h2>Author : Kulsoom Adnan✨</h2>
 
 </i>
