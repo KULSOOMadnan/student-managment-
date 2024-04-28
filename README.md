@@ -1,6 +1,6 @@
 <i>
-<h1>Author : Kulsoom Adnan✨</h1>
 <h1> 👨‍🎓 Student Management System 📚</h1>
+<h1>Author : Kulsoom Adnan✨</h1>
 <h2>Description⤵️</h2>
 <p>The Student Management System is a Node.js-based command-line application designed to streamline administrative tasks related to student information and course management.
  the system aims to enhance user experience while efficiently managing student data and course enrollments. It serves as a practical tool for educational institutions or organizations to manage their student records effectively.
