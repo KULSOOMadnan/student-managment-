@@ -83,7 +83,7 @@ class studentManagment {
     this.studentID = this.generateStudentID();
     this.paid = [0]
     this.coursesEnrolled =[
-          {  name: 'Mathematics ', creditHours: 2, fee: 1000 },
+          { name: 'Mathematics ', creditHours: 2, fee: 1000 },
           { name: 'Biology ', creditHours: 1, fee: 1000 },
           { name: 'English ', creditHours: 1, fee: 1000 },
           { name: 'Physics ', creditHours: 1, fee:  2000},
@@ -95,7 +95,7 @@ class studentManagment {
     
 }
 
-    // Function to generate a student ID
+    // Function to generate 5 digit  student ID
     private generateStudentID(): string {
         return Math.floor((Math.random() * 90000) + 1).toString()
     }
@@ -112,13 +112,20 @@ class studentManagment {
 
     // add Student NAME + father name with id 
     addstudent(student :string, fname : string){
+        // Generating a unique ID for the student
+
         const id = this.generateStudentID()  
-        let students : StudentInfo = {student,fname,id,courses: [] , balance : 0}
-        this.studentinfo.push(students)   
-        
+        // Creating a new student object
+
+        let students : StudentInfo = {student,fname,id,courses: [] , balance : 0}  
+        // Adding the students to the studentInfo array
+
+        this.studentinfo.push(students)  
+
+        // Displaying a confirmation message
         console.log(chalk.rgb(238, 130, 238).italic.bold
          (`\nStudent "${student.toUpperCase()} ${fname.toUpperCase()}" added in School managment `));
-            
+         // display studeny id    
         console.log(chalk.yellow.italic.bold
         (`\n${student.toUpperCase()} Id number is:  ${id}\n`));
          
